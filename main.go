@@ -57,7 +57,7 @@ func main() {
 	http.HandleFunc("/read/", handleRead)
 	http.HandleFunc("/static/style.css", handleCSS)
 
-	port := "9000"
+	port := "8000"
 	fmt.Printf("Pali Reader starting on http://localhost:%s\n", port)
 	log.Fatal(http.ListenAndServe(":"+port, nil))
 }
@@ -357,7 +357,7 @@ func processWords(text string) string {
 				// Create clickable link
 				linkURL := fmt.Sprintf("%s?tab=dpd&q=%s",
 					paliAnalysisURL, url.QueryEscape(cleanWord))
-				fmt.Fprintf(&result, `<a href="%s" class="pali-word" target="_blank">%s</a>`,
+				fmt.Fprintf(&result, `<a href="%s" class="pali-word" target="other">%s</a>`,
 					linkURL, template.HTMLEscapeString(word))
 			} else {
 				result.WriteString(template.HTMLEscapeString(word))
