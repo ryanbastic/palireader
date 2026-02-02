@@ -10,5 +10,4 @@ Digital Pali Dictionary is located here:
 
 https://www.dpdict.net/
 
-All credit goes to the actual GRETIL and DPD authors. Please donate to or support them, not me.
-# palireader
+All credit goes to the actual GRETIL and DPD authors. Please donate to and support them, not me.

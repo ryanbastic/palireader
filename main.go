@@ -416,7 +416,7 @@ const templatesHTML = `
         {{template "content" .}}
     </main>
     <footer>
-        <p>Click any Pali word to view its analysis on <a href="https://pali.sirimangalo.org" target="_blank">pali.sirimangalo.org</a></p>
+        <p>Click any Pali word to view its analysis on the Digital Pali Dictionary.</a></p>
     </footer>
 </body>
 </html>
